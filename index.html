@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHANGE ME</title>
+    <title>Kaheems Amazing website</title>
+    <link rel="stylesheet" href="style.css" /> 
   </head>
 
   <body>
     <!-- All content goes here -->
     <div id="all-contents">
-      
+      <nav> 
+        <h1>Kaheems Amazing Website</h1>
+        <ul id="nav-ul">
+          <li class="nav-li">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-li">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+      <div class="sidebar">
+        <img class="sidebar-img" src="data:image/png;base64,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">  
+      </div>
+
+     <div class="content">
+      <h2>Kaheem Wright</h2>
+      <p>i attend G.W.C.high school</p>
+  <div id="skating">
+    <h3>intrests</h3>
+    <ul>
+    <li>skating</li>
+    <li>playing the game</li>
+    <li>going outside</li>
+    </ul>
+      </div>
+    </main>
     </div>
   </body>
 </html>
